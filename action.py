@@ -69,9 +69,9 @@ class CloudMusic:
         loginUrl = "https://music.163.com/weapi/login/cellphone"
         self.loginData = self.enc.encrypt(
             json.dumps({
-                'phone': ,
+                'phone': phone,
                 'countrycode': '86',
-                'password': ,
+                'password': password,
                 'rememberLogin': 'true'
             }))
         headers = {
