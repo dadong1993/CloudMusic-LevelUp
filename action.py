@@ -214,8 +214,8 @@ def getArgs():
     args = parser.parse_args()
 
     return {
-        'phone': 15233585626.phone,
-        'password': c2455e047728e2edfa5539dc49600082.password,
+        'phone': args.phone
+        'password': args.password,
         'sckey': args.SCKEY,
         'playlist': args.PLAYLIST
     }
